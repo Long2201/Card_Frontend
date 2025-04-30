@@ -1,0 +1,31 @@
+.feature-box {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid #eee;
+    background-color: #19b3c7;
+    align-items: flex-start;
+  }
+  
+  .feature-image {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    background-color: #e0e0e0;
+  }
+  
+  .feature-content {
+    flex: 1;
+  }
+  
+  .feature-content h3 {
+    margin-bottom: 10px;
+  }
+  
+  .feature-content a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
